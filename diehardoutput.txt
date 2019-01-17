@@ -1,0 +1,333 @@
+ BIRTHDAY SPACINGS TEST, M= 512 N=2**24 LAMBDA=  2.0000
+           hexbinfile      using bits  1 to 24 p-value=  .193191
+           hexbinfile      using bits  2 to 25 p-value=  .915869
+           hexbinfile      using bits  3 to 26 p-value=  .004509
+           hexbinfile      using bits  4 to 27 p-value=  .004724
+           hexbinfile      using bits  5 to 28 p-value=  .575210
+           hexbinfile      using bits  6 to 29 p-value=  .501393
+           hexbinfile      using bits  7 to 30 p-value=  .668289
+           hexbinfile      using bits  8 to 31 p-value=  .550216
+           hexbinfile      using bits  9 to 32 p-value=  .480816
+   The 9 p-values were
+        .193191   .915869   .004509   .004724   .575210
+        .501393   .668289   .550216   .480816
+  A KSTEST for the 9 p-values yields  .820947
+--------------------------------------------------------------------------------
+           OPERM5 test for file hexbinfile     
+ chisquare for 99 degrees of freedom=106.845; p-value= .722670
+           OPERM5 test for file hexbinfile     
+ chisquare for 99 degrees of freedom= 78.905; p-value= .068122
+--------------------------------------------------------------------------------
+    Binary rank test for hexbinfile     
+         Rank test for 31x31 binary matrices:
+        rows from leftmost 31 bits of each 32-bit integer
+      rank   observed  expected (o-e)^2/e  sum
+        28       221     211.4   .434279     .434
+        29      5087    5134.0   .430456     .865
+        30     23245   23103.0   .872209    1.737
+        31     11447   11551.5   .945793    2.683
+  chisquare= 2.683 for 3 d. of f.; p-value= .607552
+    Binary rank test for hexbinfile     
+         Rank test for 32x32 binary matrices:
+        rows from leftmost 32 bits of each 32-bit integer
+      rank   observed  expected (o-e)^2/e  sum
+        29       246     211.4  5.656631    5.657
+        30      5230    5134.0  1.794705    7.451
+        31     22958   23103.0   .910642    8.362
+        32     11566   11551.5   .018140    8.380
+  chisquare= 8.380 for 3 d. of f.; p-value= .963121
+--------------------------------------------------------------------------------
+ b-rank test for bits  1 to  8 p=1-exp(-SUM/2)=1.00000
+ b-rank test for bits  2 to  9 p=1-exp(-SUM/2)=1.00000
+ b-rank test for bits  3 to 10 p=1-exp(-SUM/2)=1.00000
+ b-rank test for bits  4 to 11 p=1-exp(-SUM/2)=1.00000
+ b-rank test for bits  5 to 12 p=1-exp(-SUM/2)=1.00000
+ b-rank test for bits  6 to 13 p=1-exp(-SUM/2)=1.00000
+ b-rank test for bits  7 to 14 p=1-exp(-SUM/2)=1.00000
+ b-rank test for bits  8 to 15 p=1-exp(-SUM/2)= .99608
+ b-rank test for bits  9 to 16 p=1-exp(-SUM/2)= .99999
+ b-rank test for bits 10 to 17 p=1-exp(-SUM/2)= .97117
+ b-rank test for bits 11 to 18 p=1-exp(-SUM/2)= .77808
+ b-rank test for bits 12 to 19 p=1-exp(-SUM/2)= .22774
+ b-rank test for bits 13 to 20 p=1-exp(-SUM/2)= .25983
+ b-rank test for bits 14 to 21 p=1-exp(-SUM/2)= .30079
+ b-rank test for bits 15 to 22 p=1-exp(-SUM/2)= .55943
+ b-rank test for bits 16 to 23 p=1-exp(-SUM/2)= .43413
+ b-rank test for bits 17 to 24 p=1-exp(-SUM/2)= .62043
+ b-rank test for bits 18 to 25 p=1-exp(-SUM/2)= .66097
+ b-rank test for bits 19 to 26 p=1-exp(-SUM/2)= .11440
+ b-rank test for bits 20 to 27 p=1-exp(-SUM/2)= .69071
+ b-rank test for bits 21 to 28 p=1-exp(-SUM/2)= .68662
+ b-rank test for bits 22 to 29 p=1-exp(-SUM/2)= .23935
+ b-rank test for bits 23 to 30 p=1-exp(-SUM/2)= .88220
+ b-rank test for bits 24 to 31 p=1-exp(-SUM/2)= .52516
+ b-rank test for bits 25 to 32 p=1-exp(-SUM/2)= .60271
+   TEST SUMMARY, 25 tests on 100,000 random 6x8 matrices
+ These should be 25 uniform [0,1] random variables:
+    1.000000    1.000000    1.000000    1.000000    1.000000
+    1.000000    1.000000     .996082     .999989     .971171
+     .778084     .227742     .259832     .300786     .559426
+     .434131     .620426     .660966     .114396     .690708
+     .686624     .239354     .882199     .525160     .602710
+   brank test summary for hexbinfile     
+       The KS test for those 25 supposed UNI's yields
+                    KS p-value=1.000000
+--------------------------------------------------------------------------------
+  No. missing words should average  141909. with sigma=428.
+ tst no  1:  142693 missing words,    1.83 sigmas from mean, p-value= .96645
+ tst no  2:  142777 missing words,    2.03 sigmas from mean, p-value= .97868
+ tst no  3:  141920 missing words,     .02 sigmas from mean, p-value= .50995
+ tst no  4:  142950 missing words,    2.43 sigmas from mean, p-value= .99248
+ tst no  5:  142236 missing words,     .76 sigmas from mean, p-value= .77734
+ tst no  6:  143048 missing words,    2.66 sigmas from mean, p-value= .99610
+ tst no  7:  142003 missing words,     .22 sigmas from mean, p-value= .58662
+ tst no  8:  142565 missing words,    1.53 sigmas from mean, p-value= .93723
+ tst no  9:  142471 missing words,    1.31 sigmas from mean, p-value= .90529
+ tst no 10:  142227 missing words,     .74 sigmas from mean, p-value= .77102
+ tst no 11:  142820 missing words,    2.13 sigmas from mean, p-value= .98332
+ tst no 12:  142275 missing words,     .85 sigmas from mean, p-value= .80355
+ tst no 13:  142095 missing words,     .43 sigmas from mean, p-value= .66779
+ tst no 14:  142670 missing words,    1.78 sigmas from mean, p-value= .96224
+ tst no 15:  142387 missing words,    1.12 sigmas from mean, p-value= .86780
+ tst no 16:  143000 missing words,    2.55 sigmas from mean, p-value= .99459
+ tst no 17:  142218 missing words,     .72 sigmas from mean, p-value= .76461
+ tst no 18:  142507 missing words,    1.40 sigmas from mean, p-value= .91871
+ tst no 19:  142232 missing words,     .75 sigmas from mean, p-value= .77455
+ tst no 20:  142277 missing words,     .86 sigmas from mean, p-value= .80484
+--------------------------------------------------------------------------------
+    OPSO for hexbinfile      using bits 23 to 32        143736  6.299 1.0000
+    OPSO for hexbinfile      using bits 22 to 31        142865  3.295  .9995
+    OPSO for hexbinfile      using bits 21 to 30        142192   .975  .8352
+    OPSO for hexbinfile      using bits 20 to 29        141812  -.336  .3686
+    OPSO for hexbinfile      using bits 19 to 28        142192   .975  .8352
+    OPSO for hexbinfile      using bits 18 to 27        141660  -.860  .1950
+    OPSO for hexbinfile      using bits 17 to 26        141902  -.025  .4899
+    OPSO for hexbinfile      using bits 16 to 25        141701  -.718  .2363
+    OPSO for hexbinfile      using bits 15 to 24        141947   .130  .5517
+    OPSO for hexbinfile      using bits 14 to 23        141709  -.691  .2448
+    OPSO for hexbinfile      using bits 13 to 22        141992   .285  .6122
+    OPSO for hexbinfile      using bits 12 to 21        141861  -.167  .4338
+    OPSO for hexbinfile      using bits 11 to 20        142037   .440  .6701
+    OPSO for hexbinfile      using bits 10 to 19        141403 -1.746  .0404
+    OPSO for hexbinfile      using bits  9 to 18        141561 -1.201  .1149
+    OPSO for hexbinfile      using bits  8 to 17        142462  1.906  .9717
+    OPSO for hexbinfile      using bits  7 to 16        142294  1.326  .9077
+    OPSO for hexbinfile      using bits  6 to 15        143408  5.168 1.0000
+    OPSO for hexbinfile      using bits  5 to 14        144288  8.202 1.0000
+    OPSO for hexbinfile      using bits  4 to 13        145374 11.947 1.0000
+    OPSO for hexbinfile      using bits  3 to 12        147120 17.968 1.0000
+    OPSO for hexbinfile      using bits  2 to 11        148703 23.426 1.0000
+    OPSO for hexbinfile      using bits  1 to 10        150931 31.109 1.0000
+    OQSO for hexbinfile      using bits 28 to 32        144884 10.084 1.0000
+    OQSO for hexbinfile      using bits 27 to 31        143132  4.145 1.0000
+    OQSO for hexbinfile      using bits 26 to 30        142573  2.250  .9878
+    OQSO for hexbinfile      using bits 25 to 29        142689  2.643  .9959
+    OQSO for hexbinfile      using bits 24 to 28        141423 -1.649  .0496
+    OQSO for hexbinfile      using bits 23 to 27        141535 -1.269  .1022
+    OQSO for hexbinfile      using bits 22 to 26        141928   .063  .5252
+    OQSO for hexbinfile      using bits 21 to 25        142144   .795  .7868
+    OQSO for hexbinfile      using bits 20 to 24        142442  1.806  .9645
+    OQSO for hexbinfile      using bits 19 to 23        141855  -.184  .4269
+    OQSO for hexbinfile      using bits 18 to 22        142231  1.090  .8622
+    OQSO for hexbinfile      using bits 17 to 21        142129   .745  .7718
+    OQSO for hexbinfile      using bits 16 to 20        142099   .643  .7399
+    OQSO for hexbinfile      using bits 15 to 19        141910   .002  .5009
+    OQSO for hexbinfile      using bits 14 to 18        142327  1.416  .9216
+    OQSO for hexbinfile      using bits 13 to 17        141915   .019  .5077
+    OQSO for hexbinfile      using bits 12 to 16        141813  -.327  .3720
+    OQSO for hexbinfile      using bits 11 to 15        141768  -.479  .3159
+    OQSO for hexbinfile      using bits 10 to 14        142178   .911  .8188
+    OQSO for hexbinfile      using bits  9 to 13        142153   .826  .7956
+    OQSO for hexbinfile      using bits  8 to 12        142617  2.399  .9918
+    OQSO for hexbinfile      using bits  7 to 11        143648  5.894 1.0000
+    OQSO for hexbinfile      using bits  6 to 10        143744  6.219 1.0000
+    OQSO for hexbinfile      using bits  5 to  9        145403 11.843 1.0000
+    OQSO for hexbinfile      using bits  4 to  8        148030 20.748 1.0000
+    OQSO for hexbinfile      using bits  3 to  7        147453 18.792 1.0000
+    OQSO for hexbinfile      using bits  2 to  6        146789 16.541 1.0000
+    OQSO for hexbinfile      using bits  1 to  5        147005 17.273 1.0000
+     DNA for hexbinfile      using bits 31 to 32        143408  4.421 1.0000
+     DNA for hexbinfile      using bits 30 to 31        143600  4.987 1.0000
+     DNA for hexbinfile      using bits 29 to 30        143848  5.719 1.0000
+     DNA for hexbinfile      using bits 28 to 29        142511  1.775  .9620
+     DNA for hexbinfile      using bits 27 to 28        141812  -.287  .3870
+     DNA for hexbinfile      using bits 26 to 27        142371  1.362  .9134
+     DNA for hexbinfile      using bits 25 to 26        142246   .993  .8397
+     DNA for hexbinfile      using bits 24 to 25        142579  1.975  .9759
+     DNA for hexbinfile      using bits 23 to 24        141957   .141  .5559
+     DNA for hexbinfile      using bits 22 to 23        141758  -.446  .3277
+     DNA for hexbinfile      using bits 21 to 22        142123   .630  .7358
+     DNA for hexbinfile      using bits 20 to 21        141608  -.889  .1870
+     DNA for hexbinfile      using bits 19 to 20        141991   .241  .5952
+     DNA for hexbinfile      using bits 18 to 19        142020   .326  .6280
+     DNA for hexbinfile      using bits 17 to 18        142362  1.335  .9091
+     DNA for hexbinfile      using bits 16 to 17        141126 -2.311  .0104
+     DNA for hexbinfile      using bits 15 to 16        142047   .406  .6577
+     DNA for hexbinfile      using bits 14 to 15        141466 -1.308  .0955
+     DNA for hexbinfile      using bits 13 to 14        142139   .677  .7510
+     DNA for hexbinfile      using bits 12 to 13        142894  2.905  .9982
+     DNA for hexbinfile      using bits 11 to 12        141408 -1.479  .0696
+     DNA for hexbinfile      using bits 10 to 11        142047   .406  .6577
+     DNA for hexbinfile      using bits  9 to 10        142393  1.427  .9232
+     DNA for hexbinfile      using bits  8 to  9        142977  3.149  .9992
+     DNA for hexbinfile      using bits  7 to  8        143061  3.397  .9997
+     DNA for hexbinfile      using bits  6 to  7        143811  5.610 1.0000
+     DNA for hexbinfile      using bits  5 to  6        143468  4.598 1.0000
+     DNA for hexbinfile      using bits  4 to  5        143308  4.126 1.0000
+     DNA for hexbinfile      using bits  3 to  4        142236   .964  .8324
+     DNA for hexbinfile      using bits  2 to  3        141531 -1.116  .1322
+     DNA for hexbinfile      using bits  1 to  2        142318  1.206  .8860
+--------------------------------------------------------------------------------
+   Test results for hexbinfile     
+ Chi-square with 5^5-5^4=2500 d.of f. for sample size:2560000
+                               chisquare  equiv normal  p-value
+  Results fo COUNT-THE-1's in successive bytes:
+ byte stream for hexbinfile       2673.88      2.459      .993035
+ byte stream for hexbinfile       2583.03      1.174      .879835
+--------------------------------------------------------------------------------
+ Chi-square with 5^5-5^4=2500 d.of f. for sample size: 256000
+                      chisquare  equiv normal  p value
+  Results for COUNT-THE-1's in specified bytes:
+           bits  1 to  8  2595.73      1.354      .912111
+           bits  2 to  9  2573.63      1.041      .851115
+           bits  3 to 10  2732.76      3.292      .999502
+           bits  4 to 11  2641.35      1.999      .977198
+           bits  5 to 12  2687.55      2.652      .996003
+           bits  6 to 13  2566.32       .938      .825854
+           bits  7 to 14  2656.53      2.214      .986572
+           bits  8 to 15  2506.20       .088      .534930
+           bits  9 to 16  2638.33      1.956      .974787
+           bits 10 to 17  2472.00      -.396      .346042
+           bits 11 to 18  2544.88       .635      .737192
+           bits 12 to 19  2594.62      1.338      .909579
+           bits 13 to 20  2529.03       .411      .659306
+           bits 14 to 21  2480.01      -.283      .388707
+           bits 15 to 22  2438.73      -.867      .193103
+           bits 16 to 23  2473.59      -.373      .354395
+           bits 17 to 24  2581.84      1.157      .876439
+           bits 18 to 25  2462.77      -.526      .299279
+           bits 19 to 26  2501.73       .025      .509776
+           bits 20 to 27  2495.74      -.060      .475978
+           bits 21 to 28  2542.80       .605      .727520
+           bits 22 to 29  2533.94       .480      .684386
+           bits 23 to 30  2659.62      2.257      .988006
+           bits 24 to 31  2583.09      1.175      .880006
+           bits 25 to 32  2564.03       .906      .817420
+--------------------------------------------------------------------------------
+           CDPARK: result of ten tests on file hexbinfile     
+            Of 12,000 tries, the average no. of successes
+                 should be 3523 with sigma=21.9
+            Successes: 3412    z-score: -5.068 p-value: .000000
+            Successes: 3462    z-score: -2.785 p-value: .002673
+            Successes: 3444    z-score: -3.607 p-value: .000155
+            Successes: 3394    z-score: -5.890 p-value: .000000
+            Successes: 3444    z-score: -3.607 p-value: .000155
+            Successes: 3445    z-score: -3.562 p-value: .000184
+            Successes: 3396    z-score: -5.799 p-value: .000000
+            Successes: 3427    z-score: -4.384 p-value: .000006
+            Successes: 3441    z-score: -3.744 p-value: .000090
+            Successes: 3426    z-score: -4.429 p-value: .000005
+ 
+           square size   avg. no.  parked   sample sigma
+             100.            3429.100       21.345
+            KSTEST for the above 10: p= 1.000000
+--------------------------------------------------------------------------------
+               This is the MINIMUM DISTANCE test
+              for random integers in the file hexbinfile     
+     Sample no.    d^2     avg     equiv uni            
+           5     .4878    .4067     .387533
+          10    3.1205    .7092     .956550
+          15     .7862    .6749     .546209
+          20    1.4703    .6490     .771828
+          25     .7744    .5864     .540816
+          30     .0000    .5383     .000000
+          35    1.1733    .6051     .692489
+          40     .5820    .6002     .442842
+          45     .0000    .5813     .000000
+          50     .2548    .5405     .225917
+          55     .1067    .5208     .101650
+          60    1.9914    .5325     .864848
+          65     .0337    .5271     .033295
+          70     .6995    .5645     .504893
+          75     .1282    .5761     .120896
+          80     .6631    .6072     .486445
+          85     .7050    .6337     .507642
+          90    1.9243    .6302     .855422
+          95     .0152    .6251     .015176
+         100     .4646    .6254     .373071
+     MINIMUM DISTANCE TEST for hexbinfile     
+          Result of KS test on 20 transformed mindist^2's:
+                                  p-value=1.000000
+--------------------------------------------------------------------------------
+               The 3DSPHERES test for file hexbinfile     
+ sample no:  1     r^3=   6.821     p-value= .20337
+ sample no:  2     r^3=   4.816     p-value= .14830
+ sample no:  3     r^3=   6.065     p-value= .18304
+ sample no:  4     r^3=  33.914     p-value= .67711
+ sample no:  5     r^3=   1.316     p-value= .04291
+ sample no:  6     r^3=   2.158     p-value= .06941
+ sample no:  7     r^3=  28.722     p-value= .61612
+ sample no:  8     r^3=   6.777     p-value= .20221
+ sample no:  9     r^3=  31.104     p-value= .64542
+ sample no: 10     r^3=    .304     p-value= .01008
+ sample no: 11     r^3=  55.763     p-value= .84414
+ sample no: 12     r^3=   3.062     p-value= .09703
+ sample no: 13     r^3=  24.056     p-value= .55151
+ sample no: 14     r^3=   6.805     p-value= .20295
+ sample no: 15     r^3=  99.978     p-value= .96430
+ sample no: 16     r^3=   8.147     p-value= .23781
+ sample no: 17     r^3=   2.231     p-value= .07168
+ sample no: 18     r^3=   5.977     p-value= .18064
+ sample no: 19     r^3=  12.788     p-value= .34705
+ sample no: 20     r^3=  26.158     p-value= .58186
+       3DSPHERES test for file hexbinfile           p-value= .984197
+--------------------------------------------------------------------------------
+            RESULTS OF SQUEEZE TEST FOR hexbinfile     
+         Table of standardized frequency counts
+     ( (obs-exp)/sqrt(exp) )^2
+        for j taking values <=6,7,8,...,47,>=48:
+     -.8     -.7    -1.1     -.4     -.5      .0
+     -.8      .7      .3     -.3     1.1    -1.3
+     -.7      .8     3.7     1.3     1.5     -.3
+     -.8     -.5    -2.3    -1.0    -1.2     -.6
+     1.4     -.6    -1.2     -.1     -.2     -.4
+      .4     -.3     -.9      .5      .2    -1.9
+     1.2     -.4    -1.2     -.7    -1.3     1.0
+     1.8
+           Chi-square with 42 degrees of freedom: 53.799
+              z-score=  1.287  p-value= .895346
+______________________________________________________________
+--------------------------------------------------------------------------------
+                Test no.  1      p-value  .328625
+                Test no.  2      p-value  .956011
+                Test no.  3      p-value  .649038
+                Test no.  4      p-value  .703729
+                Test no.  5      p-value  .073980
+                Test no.  6      p-value  .939951
+                Test no.  7      p-value  .589507
+                Test no.  8      p-value  .642432
+                Test no.  9      p-value  .719255
+                Test no. 10      p-value  .096621
+   Results of the OSUM test for hexbinfile     
+        KSTEST on the above 10 p-values:  .436060
+--------------------------------------------------------------------------------
+           The RUNS test for file hexbinfile     
+     Up and down runs in a sample of 10000
+_________________________________________________ 
+                 Run test for hexbinfile     :
+       runs up; ks test for 10 p's: .681668
+     runs down; ks test for 10 p's: .179428
+                 Run test for hexbinfile     :
+       runs up; ks test for 10 p's: .804076
+     runs down; ks test for 10 p's: .331013
+--------------------------------------------------------------------------------
+                Results of craps test for hexbinfile     
+  No. of wins:  Observed Expected
+                                98524    98585.86
+ Chisq=  35.83 for 20 degrees of freedom, p=  .98388
+               Throws Observed Expected  Chisq     Sum
+            SUMMARY  FOR hexbinfile     
+                p-value for no. of wins: .391016
+                p-value for throws/game: .983880
+  Test completed.  File hexbinfile     
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
