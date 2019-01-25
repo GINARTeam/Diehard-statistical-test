@@ -9,7 +9,7 @@ OBJS = diehard.o d3sphere.o kstest.o squeez.o cdbday.o cdosum.o df.o \
        funct.o cdomso.o craptest.o runtest.o
 
 diehard: $(OBJS)
-	$(CC) -lm -o diehard $(OBJS)
+	$(CC) -o diehard $(OBJS) -lm
 
 diehard.o: diehard.c header.h macro.h
 	$(CC) -c diehard.c
