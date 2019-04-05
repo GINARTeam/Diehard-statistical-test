@@ -23,11 +23,12 @@ passes Diehard statistical tests, then it can be used in more serious scientific
 [Diehard Statistical Test Suite](https://web.archive.org/web/20160125103112/http://stat.fsu.edu/pub/diehard/)
 
 ### Installation
-You can install dieharder test suite directly from Linux Package Managesment. 
+- You can install dieharder test suite directly from Linux Package Managesment. 
 (Ubuntu)
 ```sh
 $ sudo apt-get install dieharder
 ```
+- Or you can clone our repository and build the Diehard Test by yourself using our C source code (using Makefile)
 
 ### Get data for random test
 
