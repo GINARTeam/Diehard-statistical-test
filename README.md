@@ -10,7 +10,7 @@ GINAR is a blockchain technology company specializing in providing a decentraliz
 
 This is result of Dieharder statistical test suite for Random Number Generator (RNG) that apply to GINAR RNG    
 
-# Dieharder Statistical Test Suite
+# Diehard Statistical Test Suite
 
   
 > Diehard tests are a battery of statistical tests for measuring the quality of a random
